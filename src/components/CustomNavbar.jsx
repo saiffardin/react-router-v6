@@ -15,6 +15,7 @@ function CustomNavbar() {
               <NavLink className='mx-3' to='/'>Home</NavLink>
               <NavLink className='mx-3'to='about'>About</NavLink>
               <NavLink className='mx-3' to='products'>Products</NavLink>
+              <NavLink className='mx-3' to='users'>Users</NavLink>
             </nav>
           </Nav>
         </Navbar.Collapse>
