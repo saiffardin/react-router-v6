@@ -1,14 +1,17 @@
 import {Route, Routes} from 'react-router-dom'
 import './App.css'
 import About from './Routes/About'
-import Admin from './Routes/Admin'
+
 import Home from './Routes/Home'
 import FeaturedProducts from './Routes/Products/FeaturedProducts'
 import NewProducts from './Routes/Products/NewProducts'
 import Products from './Routes/Products/Products'
-import UserDetails from './Routes/UserDetails'
+
 import Users from './Routes/Users/Users'
 import CustomNavbar from './components/CustomNavbar'
+import Admin from './Routes/Users/Admin'
+import UserDetails from './Routes/Users/UserDetails'
+
 
 function App() {
  
