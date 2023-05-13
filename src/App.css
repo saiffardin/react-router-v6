@@ -1,0 +1,5 @@
+nav .active,
+nav .active:hover {
+    text-decoration: underline;
+    color: red;
+}
