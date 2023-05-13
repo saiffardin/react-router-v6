@@ -1,10 +1,10 @@
 import {Route, Routes} from 'react-router-dom'
 import './App.css'
 import About from './Routes/About'
-import FeaturedProducts from './Routes/FeaturedProducts'
+import FeaturedProducts from './Routes/Products/FeaturedProducts'
 import Home from './Routes/Home'
-import NewProducts from './Routes/NewProducts'
-import Products from './Routes/Products'
+import NewProducts from './Routes/Products/NewProducts'
+import Products from './Routes/Products/Products'
 import CustomNavbar from './components/CustomNavbar'
 
 function App() {
