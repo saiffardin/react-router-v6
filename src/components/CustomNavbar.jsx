@@ -11,27 +11,11 @@ function CustomNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            {/* <Nav.Link>
-              <Link to='/'>Home</Link>
-            </Nav.Link>
-
-            <Nav.Link>
-              <Link to='about'>About</Link>
-            </Nav.Link>
-
-            <Nav.Link>
-              <Link to='products'>Products</Link>
-            </Nav.Link> */}
-
-          <nav>
-            <NavLink className='mx-3' to='/'>Home</NavLink>
-            <NavLink className='mx-3'to='about'>About</NavLink>
-            <NavLink className='mx-3' to='products'>Products</NavLink>
-          </nav>
-            
-            
-        
-            
+            <nav>
+              <NavLink className='mx-3' to='/'>Home</NavLink>
+              <NavLink className='mx-3'to='about'>About</NavLink>
+              <NavLink className='mx-3' to='products'>Products</NavLink>
+            </nav>
           </Nav>
         </Navbar.Collapse>
       </Container>
